@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39be646c-ea35-49d1-ab34-b6e3fc757f1c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order_backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/order_backend.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661679324102</updated>
-      <workItem from="1661679325280" duration="726000" />
+      <workItem from="1661679325280" duration="1120000" />
     </task>
     <servers />
   </component>
