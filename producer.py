@@ -3,7 +3,7 @@ import time
 
 from kafka import KafkaProducer
 
-ORDER_KAFKA_TOPIC = "order_detail"
+ORDER_KAFKA_TOPIC = "order_details2"
 ORDER_LIMIT = 15
 
 producer = KafkaProducer(bootstrap_servers="localhost:29092")
@@ -20,6 +20,6 @@ for i in range(ORDER_LIMIT):
         "items": "burger,sandwich",
     }
 
-    producer.send("order_details", json.dumps(data).encode("utf-8"))
+    producer.send(ORDER_KAFKA_TOPIC, json.dumps(data).encode("utf-8"))
     print(f"Done Sending..{i}")
     time.sleep(5)
